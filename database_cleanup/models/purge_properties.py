@@ -2,10 +2,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 # pylint: disable=consider-merging-classes-inherited
 from odoo import api, models, fields
-REASON_DUPLICATE = 1
-REASON_DEFAULT = 2
-REASON_DEFAULT_FALSE = 3
-REASON_UNKNOWN_MODEL = 4
+REASON_DUPLICATE = '1'
+REASON_DEFAULT = '2'
+REASON_DEFAULT_FALSE = '3'
+REASON_UNKNOWN_MODEL = '4'
 
 
 class CleanupPurgeLineProperty(models.TransientModel):
